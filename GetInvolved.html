@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Get Involved | National Climate Uprising</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <img src="climate-logo.png" alt="Climate Uprising Logo" style="max-width: 200px; height: auto;" />
+  <h1>Get Involved</h1>
+  <button class="menu-toggle" id="menuToggle">☰ Menu</button>
+  <nav>
+    <ul id="menuList">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="ClimateMitigation.html">How to Mitigate Climate Change</a></li>
+      <li><a href="UrbanPlanning.html">Urban Planning, Green Spaces, and Transport</a></li>
+      <li><a href="EnvironmentalRestoration.html">Environmental Clean-Up and Justice</a></li>
+      <li><a href="Decarbonize.html">Energy Reform and Universal Green Jobs</a></li>
+      <li><a href="SystemicChange.html">Systemic Reform and Economic Democracy</a></li>
+      <li><a href="Ecology.html">Species and Habitat Conservation</a></li>
+      <li><a href="Policies.html">Projects and Policies</a></li>
+      <li><a href="Sources.html">Sources and References</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section style="background-color: #f0f9f4; padding: 60px 20px;">
+  <div class="card" style="max-width: 900px; margin: 0 auto;">
+    <h2>Let's take control of the ship.</h2>
+
+    <p>Communities around the world are advancing bold, effective, and equitable climate policies. It’s time we do the same. This site is your toolkit for action: full of data, strategies, model legislation, and organizing resources. Whether you're a student, staffer, policymaker, or concerned resident—this is where we move forward together.</p>
+
+    <h3>Lobby for Change: Push Local and State Policy</h3>
+    <p>Use this platform to advocate for city, county, and state-level action. Local change builds momentum nationally.</p>
+    <ul>
+      <li>Meet with your city council or mayor to propose a <strong>climate action plan</strong></li>
+      <li>Support zoning reform, transit expansion, and green jobs training programs</li>
+      <li>Use our <a href="Policies.html">Policy Guide</a> to share proven frameworks and real-world examples</li>
+      <li>Back state-level efforts like the <strong>Polluters Pay Climate Superfund</strong></li>
+      <li>Encourage your school board or institution to adopt <strong>climate curriculum and sustainability programs</strong></li>
+    </ul>
+
+    <h3>Stay in the Loop</h3>
+    <form name="signup" method="POST" data-netlify="true" style="margin-top: 20px;">
+      <p><label>Your Name: <input type="text" name="name" required></label></p>
+      <p><label>Email Address: <input type="email" name="email" required></label></p>
+      <p><button type="submit" style="padding: 10px 20px; background-color: #2f6f4e; color: white; border: none; border-radius: 4px;">Subscribe</button></p>
+    </form>
+
+    <h3>Explore Tools and Resources</h3>
+    <p>Use open data and mapping tools to strengthen your campaigns and educate others:</p>
+    <ul>
+      <li><a href="https://interspecific.github.io/LandUseConversion/" target="_blank">Land Use Calculator</a> – compare climate impacts of land conversion</li>
+      <li><a href="https://livingatlas.arcgis.com/en/home/" target="_blank">ArcGIS Living Atlas</a> – explore environment, climate, and equity layers</li>
+      <li><a href="https://data.climate.gov/" target="_blank">NOAA Climate Data Explorer</a></li>
+      <li><a href="Policies.html">Policy Guide</a> – find model legislation and global frameworks</li>
+    </ul>
+
+    <h3>Think Globally, Act Locally</h3>
+    <p>The U.S. has both a responsibility and an opportunity. Pushing for bold change at home supports the global climate justice movement—led by scientists, frontline communities, Indigenous organizers, and youth across the world.</p>
+    <ul>
+      <li>We align with the <a href="https://unfccc.int/" target="_blank">UNFCCC</a>, the <a href="https://www.ipcc.ch/assessment-report/ar6/" target="_blank">IPCC AR6</a>, and the <a href="https://climatepromise.undp.org/" target="_blank">UNDP Climate Promise</a></li>
+      <li>We support <a href="https://climatepromise.undp.org/what-we-do/areas-of-work/net-zero-pathways" target="_blank">net-zero transitions</a>, just transition frameworks, and rights-based solutions</li>
+      <li>We advocate for U.S. investment in global adaptation, clean energy, and equitable development</li>
+    </ul>
+
+    <h3>Contact and Organize</h3>
+    <p>Whether you're a teacher, councilmember, journalist, organizer, or researcher—we want to hear from you.</p>
+    <p>Email: <a href="mailto:climateuprising@protonmail.com">climateuprising@protonmail.com</a></p>
+    <p>Signal: @climateuprising</p>
+
+    <h3>What You Can Do Today</h3>
+    <ul>
+      <li>Print a <strong>local action toolkit</strong> and bring it to a town hall or public hearing</li>
+      <li>Host a teach-in using our <strong>Land Use and Climate Mitigation Calculator</strong></li>
+      <li>Start a local campaign based on our <strong>Green Jobs for All</strong> model</li>
+      <li>Share this platform with educators, councilmembers, and local press</li>
+    </ul>
+
+    <p><strong>The movement isn't coming. It's already here. Let’s build something that lasts.</strong></p>
+
+    <a href="index.html" style="display: inline-block; margin-top: 20px; padding: 12px 24px; background-color: #31724e; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Back to Home</a>
+  </div>
+</section>
+
+
+<footer>
+  <p>© 2025 National Climate Justice Plan. All rights reserved.</p>
+</footer>
+
+<script>
+  const menuToggle = document.getElementById("menuToggle");
+  const menuList = document.getElementById("menuList");
+  menuToggle.addEventListener("click", () => {
+    menuList.style.display = (menuList.style.display === "block") ? "none" : "block";
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+/* Base styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #eef7f1;
+  color: #2e3b2c;
+}
+
+header {
+  background-color: #2f6f4e;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header img {
+  max-width: 160px;
+  height: auto;
+  border-radius: 50%;
+}
+
+h1, h2, h3 {
+  margin: 0.5em 0;
+}
+
+a {
+  color: #5d8f6f;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #3a5d4c;
+  text-decoration: underline;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #1e3d32;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.menu-toggle {
+  display: none;
+  background-color: #1e3d32;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#hero {
+  background: linear-gradient(to right, #3a7d5c, #7fc7a5);
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+#hero h2 {
+  font-size: 2.7rem;
+  margin-bottom: 15px;
+}
+
+#hero p {
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+}
+
+#hero a {
+  display: inline-block;
+  background-color: #ffd166;
+  color: #2e3b2c;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#hero a:hover {
+  background-color: #f49f4e;
+  transform: scale(1.05);
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #d6e2d5;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.card ul li {
+  margin-bottom: 8px;
+}
+
+footer {
+  background-color: #2f6f4e;
+  color: #c4e3d5;
+  text-align: center;
+  padding: 25px;
+  font-size: 0.95rem;
+  letter-spacing: 0.3px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    display: none;
+    background-color: #1e3d32;
+    width: 100%;
+  }
+
+  nav ul li {
+    margin: 0;
+    border-bottom: 1px solid #3a5d4c;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 15px;
+    text-align: center;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+    margin: 10px auto;
+  }
+}
